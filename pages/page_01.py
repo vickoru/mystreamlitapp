@@ -21,5 +21,3 @@ url_gif = response['data'][np.random.randint(0, limit_gifs)]['embed_url']
 st.write(f'<iframe src="{url_gif}" width="480" height="240">',
          unsafe_allow_html=True
          )
-
-st.write(st.secrets['magic'])
